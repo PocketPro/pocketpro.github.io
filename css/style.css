@@ -1,0 +1,202 @@
+.summary .product_meta { margin-top: 45px; }
+
+
+/* Popup message */
+#yith-wcwl-popup-message {
+    background: white;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    line-height: 50px;
+    padding: 15px;
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    z-index: 10000; /* Thanks WP -.- */
+}
+
+/* Wishlist table template */
+.wishlist_table {}
+
+.wishlist_table tr td { text-align: center; }
+.wishlist_table tr td.product-thumbnail, .wishlist_table tr td.product-name { text-align: left; }
+.wishlist_table tr td.product-stock-status span.wishlist-in-stock { color: #297E29; }
+.wishlist_table tr td.product-stock-status span.wishlist-out-of-stock { color: #F00; }
+
+/* Wishlist buttons */
+.summary .single_add_to_wishlist.button, div.product .woocommerce-price-and-add .single_add_to_wishlist.button { margin: 0px; } 
+.yith-wcwl-add-to-wishlist { margin-top: 10px; }
+.yith-wcwl-add-button > a i, .wishlist_table .add_to_cart.button i { margin-right: 10px; }
+.wishlist_table .add_to_cart.button { margin: 0px; }
+
+/* Share buttons */
+.yith-wcwl-share ul {
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+.yith-wcwl-share ul, .yith-wcwl-share li { height: 21px; }
+.yith-wcwl-share li, .entry-content .yith-wcwl-share li { margin-left: 0px; margin-right: 3px; }
+
+.yith-wcwl-share li a {
+    background-position: left bottom;
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+}
+
+.yith-wcwl-share li a:hover { background-position: left top; }
+.yith-wcwl-share li a.facebook { background-image: url(../images/facebook.png ); }
+.yith-wcwl-share li a.twitter { background-image: url(../images/twitter.png ); }
+.yith-wcwl-share li a.pinterest { background-image: url(../images/pinterest.jpg ); }
+.yith-wcwl-share li a.googleplus { background-image: url(../images/googleplus.jpg ); }
+.yith-wcwl-share li a.email { background-image: url(../images/email.jpg ); }
+
+/* AJAX loading gif */
+.yith-wcwl-add-to-wishlist .ajax-loading {
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    display: inline !important;
+    margin-left: 5px;
+    vertical-align: middle;
+    visibility: hidden;
+    width: 16px !important;
+    height: 16px !important;
+}
+
+.vc_1423313573903 h1{font-weight:700!important; color:#ffffff !important;font-size:58px !important;text-transform:uppercase !important; }
+.vc_1423308524508 h1{font-weight:700 !important;color:#ffffff !important;font-size:60px !important;text-transform:uppercase !important;}
+
+/* iPhone 6 Plus Portrait*/
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+  	a.logo.has-alt.has-hd{display:none;}
+	.ivan-custom-wrapper.full_width.v-center.iv-full-viewport{background-image: url(../img/mobile/hero_6plus.jpg)!important; height:760px;}
+	.ivan-custom-wrapper.full_width.parallax-vertical.v-center{background-image: url(../img/mobile/servicesbg_6plus.jpg)!important;}
+  	.vc_1423313573903 h1{font-weight:100!important; color:#ffffff !important; font-size:28px!important; text-transform:uppercase !important; padding-left:20%	!important; padding-right:20% !important;}
+	.ivan-page-cut.top-right.inverse-tri-mobile {height:0px !important;}	
+	.ivan-page-cut.top-right.inverse-tri {height:0px !important;}
+}
+
+/* iPhone 6 Plus Landscape*/
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+	a.logo.has-alt.has-hd{display:none;}
+	.ivan-custom-wrapper.full_width.parallax-vertical.v-center{background-image: url(../img/mobile/servicesbg_6plus.jpg)!important;}
+  	.vc_1423313573903 h1{font-weight:100!important; color:#ffffff !important; font-size:28px!important; text-transform:uppercase !important; width:100% !important;	}
+	.ivan-page-cut.top-right.inverse-tri-mobile {height:0px !important;}	
+	.ivan-page-cut.top-right.inverse-tri {height:0px !important;}
+}
+
+/* iPhone 6 Regular Portrait*/
+/* iPhone 6 Regular Landscape*/
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+	a.logo.has-alt.has-hd{display:none;}
+	.ivan-custom-wrapper.full_width.parallax-vertical.v-center{background-image: url(../img/mobile/servicesbg_6plus.jpg)!important;}
+  	.vc_1423313573903 h1{font-weight:100!important; color:#ffffff !important; font-size:28px!important; text-transform:uppercase !important; width:100% !important;	}
+	.ivan-page-cut.top-right.inverse-tri-mobile {height:0px !important;}	
+	.ivan-page-cut.top-right.inverse-tri {height:0px !important;}
+}
+
+/* iPhone 5,5S,5C Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+	a.logo.has-alt.has-hd{display:none;}
+	.ivan-custom-wrapper.full_width.v-center.iv-full-viewport{background-image: url(../img/mobile/hero_6plus.jpg)!important; height:590px;}
+	.ivan-custom-wrapper.full_width.parallax-vertical.v-center{background-image: url(../img/mobile/servicesbg_6plus.jpg)!important;}
+  	.vc_1423313573903 h1{font-weight:100!important; color:#ffffff !important; font-size:8px!important; text-transform:uppercase !important; padding-left:10%	; padding-right:10%;	}
+	.ivan-page-cut.top-right.inverse-tri-mobile {height:0px !important;}	
+	.ivan-page-cut.top-right.inverse-tri {height:0px !important;}
+}
+
+/* iPhone 5,5S,5C Landscape */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape){
+	a.logo.has-alt.has-hd{display:none;}
+	.ivan-custom-wrapper.full_width.v-center.iv-full-viewport{height:390px !important;}
+	.ivan-custom-wrapper.full_width.parallax-vertical.v-center{background-image: url(../img/mobile/servicesbg_6plus.jpg)!important;}
+  	.vc_1423313573903 h1{font-weight:100!important; color:#ffffff !important; font-size:28px!important; text-transform:uppercase !important; width:100% !important;	}
+	.ivan-page-cut.top-right.inverse-tri-mobile {height:0px !important;}	
+	.ivan-page-cut.top-right.inverse-tri {height:0px !important;}
+}
+
+/* iPad Mini Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	a.logo.has-alt.has-hd{display:none;}
+  	.vc_1423313573903 h1{text-align:center !important; font-weight:100!important; color:#ffffff !important; font-size:28px!important; text-transform:uppercase !important; }
+	.ivan-custom-wrapper.full_width.v-center.iv-full-viewport{background-image: url(../img/mobile/hero_ipadportrait2.jpg)!important; height:500px !important; background-position:fixed !important;}
+	.ivan-custom-wrapper.full_width.parallax-vertical.v-center{background-image: url(../img/mobile/servicesbg_ipadportrait.jpg)!important;}
+	.fa-stack.main-icon-holder.fa-4x {width:60px;height:60px; font-size:30px;}
+	h4.icon-box-title{font-size:10px !important;}
+	.icon-box-content{font-size:10px !important;}
+	.fa-stack.main-icon-holder.fa-3x {width:60px;height:60px; font-size:30px;}
+	.wpb_wrapper p{padding-left:15% !important; padding-right:15% !important;}
+	.wpb_wrapper h1{font-size:28px!important;}
+}
+
+/* iPad Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+	a.logo.has-alt.has-hd{display:none;}
+  	.vc_1423313573903 h1{text-align:center !important; font-weight:100!important; color:#ffffff !important; font-size:28px!important; text-transform:uppercase !important; }
+	.ivan-custom-wrapper.full_width.v-center.iv-full-viewport{background-image: url(../img/mobile/hero_ipadportrait2.jpg)!important; height:500px !important; background-position:fixed !important;}
+	.ivan-custom-wrapper.full_width.parallax-vertical.v-center{background-image: url(../img/mobile/servicesbg_ipadportrait.jpg)!important;}
+	.fa-stack.main-icon-holder.fa-4x {width:60px;height:60px; font-size:30px;}
+	h4.icon-box-title{font-size:10px !important;}
+	.icon-box-content{font-size:10px !important;}
+	.fa-stack.main-icon-holder.fa-3x {width:60px;height:60px; font-size:30px;}
+	.wpb_wrapper p{padding-left:15% !important; padding-right:15% !important;}
+	.wpb_wrapper h1{font-size:28px!important;}
+}
+
+/* iPad Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+	  a.logo.has-alt.has-hd{display:none;}
+  	.vc_1423313573903 h1{text-align:center !important; font-weight:100!important; color:#ffffff !important; font-size:28px!important; text-transform:uppercase !important; }
+	.ivan-custom-wrapper.full_width.parallax-vertical.v-center{background:color:#FFFFFF !important;background-image: url(../img/mobile/servicesbg_ipadportrait.jpg)!important;}
+	.ivan-custom-wrapper.full_width.v-center.iv-full-viewport{background:color:#FFFFFF !important; margin-bottom:0px !important; background-image: url(../img/hero.jpg)!important; height:500px !important; background-attachment:scroll !important;}
+	.fa-stack.main-icon-holder.fa-4x {width:60px;height:60px; font-size:30px;}
+	h4.icon-box-title{font-size:10px !important;}
+	.icon-box-content{font-size:10px !important;}
+	.fa-stack.main-icon-holder.fa-3x {width:60px;height:60px; font-size:30px;}
+	.wpb_wrapper p{padding-left:15% !important; padding-right:15% !important;}
+	.wpb_wrapper h1{font-size:28px!important;}
+	.el-webdevelopment:before{content:url(../img/icons/icon_webdevelopment_mobile.svg) !important;} 
+	.el-appdevelopment:before{content:url(../img/icons/icon_appdevelopment_mobile.svg) !important;} 
+	.el-hardware:before{content:url(../img/icons/icon_hardware_mobile.svg) !important;} 
+	.el-productmanagement:before{content:url(../img/icons/icon_productmanagement_mobile.svg) !important;} 
+	.el-testing:before{content:url(../img/icons/icon_testing_mobile.svg) !important;} 
+	.el-manufacture:before{content:url(../img/icons/icon_manufacture_mobile.svg) !important;} 
+
+
+}
+
+
