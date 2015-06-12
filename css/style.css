@@ -95,6 +95,8 @@
   	.vc_1423313573903 h1{font-weight:100!important; color:#ffffff !important; font-size:28px!important; text-transform:uppercase !important; width:100% !important;	}
 	.ivan-page-cut.top-right.inverse-tri-mobile {height:0px !important;}	
 	.ivan-page-cut.top-right.inverse-tri {height:0px !important;}
+		.v-center.custom-height>.wpb_row {width: inherit !important;}
+
 }
 
 /* iPhone 6 Regular Portrait*/
@@ -122,6 +124,8 @@
   	.vc_1423313573903 h1{font-weight:100!important; color:#ffffff !important; font-size:8px!important; text-transform:uppercase !important; padding-left:10%	; padding-right:10%;	}
 	.ivan-page-cut.top-right.inverse-tri-mobile {height:0px !important;}	
 	.ivan-page-cut.top-right.inverse-tri {height:0px !important;}
+	.ivan-testimonial .testimonial-content {font-size:11px !important;}
+	
 }
 
 /* iPhone 5,5S,5C Landscape */
@@ -135,6 +139,9 @@ and (orientation : landscape){
   	.vc_1423313573903 h1{font-weight:100!important; color:#ffffff !important; font-size:28px!important; text-transform:uppercase !important; width:100% !important;	}
 	.ivan-page-cut.top-right.inverse-tri-mobile {height:0px !important;}	
 	.ivan-page-cut.top-right.inverse-tri {height:0px !important;}
+	.ivan-testimonial .testimonial-content { font-size:11px !important;}
+	.v-center.custom-height>.wpb_row {width: inherit !important;}
+
 }
 
 /* iPad Mini Portrait */
@@ -153,6 +160,14 @@ and (orientation : landscape){
 	.fa-stack.main-icon-holder.fa-3x {width:60px;height:60px; font-size:30px;}
 	.wpb_wrapper p{padding-left:15% !important; padding-right:15% !important;}
 	.wpb_wrapper h1{font-size:28px!important;}
+	.el-webdevelopment:before{content:url(../img/icons/icon_webdevelopment_mobile.svg) !important;} 
+	.el-appdevelopment:before{content:url(../img/icons/icon_appdevelopment_mobile.svg) !important;} 
+	.el-hardware:before{content:url(../img/icons/icon_hardware_mobile.svg) !important;} 
+	.el-productmanagement:before{content:url(../img/icons/icon_productmanagement_mobile.svg) !important;} 
+	.el-testing:before{content:url(../img/icons/icon_testing_mobile.svg) !important;} 
+	.el-manufacture:before{content:url(../img/icons/icon_manufacture_mobile.svg) !important;} 
+	.ivan-testimonial .testimonial-content {font-size:18px !important;}
+
 }
 
 /* iPad Portrait */
@@ -171,6 +186,13 @@ and (orientation : landscape){
 	.fa-stack.main-icon-holder.fa-3x {width:60px;height:60px; font-size:30px;}
 	.wpb_wrapper p{padding-left:15% !important; padding-right:15% !important;}
 	.wpb_wrapper h1{font-size:28px!important;}
+	.el-webdevelopment:before{content:url(../img/icons/icon_webdevelopment_mobile.svg) !important;} 
+	.el-appdevelopment:before{content:url(../img/icons/icon_appdevelopment_mobile.svg) !important;} 
+	.el-hardware:before{content:url(../img/icons/icon_hardware_mobile.svg) !important;} 
+	.el-productmanagement:before{content:url(../img/icons/icon_productmanagement_mobile.svg) !important;} 
+	.el-testing:before{content:url(../img/icons/icon_testing_mobile.svg) !important;} 
+	.el-manufacture:before{content:url(../img/icons/icon_manufacture_mobile.svg) !important;} 
+	.ivan-testimonial .testimonial-content {font-size:18px !important;}
 }
 
 /* iPad Landscape */
